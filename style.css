@@ -38,6 +38,8 @@
     background-image: url(./Properties/header-shapes\ mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
   }
 
   .headline-heading {
