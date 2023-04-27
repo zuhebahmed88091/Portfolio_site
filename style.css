@@ -62,11 +62,14 @@
 
   .social-media-icons {
     margin-top: 4%;
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0;
   }
 
-  .social-media-icons img {
-    padding-right: 2.5%;
+  .social-media-icons li {
+    padding-right: 6%;
   }
-
+  
   /* headline ends */
 }
