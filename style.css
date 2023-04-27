@@ -9,9 +9,18 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  /* navbar starts */
   .navbar {
     display: flex;
     justify-content: space-between;
+  }
+
+  .logo {
+    padding-left: 6%;
+  }
+
+  .union-bar {
+    padding-right: 6%;
   }
   
   .logo a{
@@ -23,4 +32,40 @@ body {
   .union-bar {
     padding-top: 1.2%;
   }
+  /* navbar ends */
+  
+  /* headline starts */
+  .headline{
+    margin-top: 17%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-bottom: 17%;
+    background-image: url(./Properties/header-shapes\ mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .headline-heading {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: #172B4D;
+  }
+  .headline-description {
+    margin-top: 4%;
+    font-weight: 400;
+    color: #344563;
+  }
+  .social-media {
+    margin-top: 4%;
+    font-weight: 500;
+    color: #7F8CFF;
+  }
+  .social-media-icons{
+    margin-top: 4%;
+  }
+  .social-media-icons img {
+    padding-right: 2.5%;
+  }
+  
+  /* headline ends */
 }
