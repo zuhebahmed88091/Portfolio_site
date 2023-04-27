@@ -4,10 +4,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  margin: 3%;
-}
-
 @media only screen and (max-width: 600px) {
   /* navbar starts */
   .navbar {
