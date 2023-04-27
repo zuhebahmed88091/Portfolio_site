@@ -9,7 +9,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [:rocket: Live Demo](#live-demo)
 - [:computer: Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
