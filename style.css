@@ -47,21 +47,22 @@
     font-weight: bolder;
     color: #172b4d;
   }
+  .headline-heading h1 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+  }
 
   .headline-description {
-    margin-top: 4%;
     font-weight: 400;
     color: #344563;
   }
 
   .social-media {
-    margin-top: 4%;
     font-weight: 500;
     color: #7f8cff;
   }
 
   .social-media-icons {
-    margin-top: 4%;
     list-style-type: none;
     display: flex;
     padding-inline-start: 0;
@@ -70,6 +71,6 @@
   .social-media-icons li {
     padding-right: 6%;
   }
-  
+
   /* headline ends */
 }
