@@ -44,7 +44,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive Design.**
+- **HTML.**
+- **CSS.**
+- **Linters.**
+- **Flexbox.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
