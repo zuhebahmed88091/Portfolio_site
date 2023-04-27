@@ -17,21 +17,20 @@
 
   .union-bar {
     padding-right: 6%;
+    padding-top: 1.2%;
   }
-  
-  .logo a{
-    color: #6070FF;
+
+  .logo a {
+    color: #6070ff;
     text-decoration: none;
     font-weight: 700;
     font-size: 1.5rem;
   }
-  .union-bar {
-    padding-top: 1.2%;
-  }
+
   /* navbar ends */
-  
+
   /* headline starts */
-  .headline{
+  .headline {
     margin-top: 17%;
     padding-left: 6%;
     padding-right: 6%;
@@ -44,24 +43,28 @@
   .headline-heading {
     font-size: 2.2rem;
     font-weight: bolder;
-    color: #172B4D;
+    color: #172b4d;
   }
+
   .headline-description {
     margin-top: 4%;
     font-weight: 400;
     color: #344563;
   }
+
   .social-media {
     margin-top: 4%;
     font-weight: 500;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
-  .social-media-icons{
+
+  .social-media-icons {
     margin-top: 4%;
   }
+
   .social-media-icons img {
     padding-right: 2.5%;
   }
-  
+
   /* headline ends */
 }
