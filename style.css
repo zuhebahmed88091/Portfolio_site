@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
-  margin: 8px;
+  margin: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo a{
+    color: #6070FF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .union-bar {
+    padding-top: 1.2%;
+  }
 }
