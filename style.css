@@ -182,14 +182,14 @@ body {
   }
 
   .user-buttons {
-    width: 45%;
-    padding: 3%;
+    width: 60.2%;
+    padding: 4%;
     margin-bottom: 6%;
     border: 2px solid #6070ff;
     border-radius: 0.7rem;
     color: #396df2;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 17px;
     cursor: pointer;
     background: #fff;
   }
