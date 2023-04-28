@@ -271,11 +271,22 @@ body {
     justify-content: space-between;
   }
 
+  .language-title h2 {
+    color: #000000;
+    font-weight: 530;
+    font-size: 1.25rem;
+  }
+
   .language-title img {
     padding-right: 20%;
   }
 
-  .language-name {
+  .languages-name {
+    list-style-type: none;
+    padding-inline-start: 0;
+    
+  }
+  .languages-name li {
     display: flex;
     border-radius: 0.8rem;
     background-color: #f7f7f9;
@@ -291,10 +302,21 @@ body {
     padding-top: 3%;
   }
 
+  .certain-language-name p {
+    color: #253858;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
   .framework-title {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #e5e5e5;
+  }
+  .framework-title h2 {
+    color: #000000;
+    font-weight: 530;
+    font-size: 1.25rem;
   }
 
   .framework-title img {
@@ -305,6 +327,12 @@ body {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #e5e5e5;
+  }
+
+  .skill-title h2 {
+    color: #000000;
+    font-weight: 530;
+    font-size: 1.25rem;
   }
 
   .skill-title img {
