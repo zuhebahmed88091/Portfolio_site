@@ -192,6 +192,7 @@ body {
     font-weight: 500;
     font-size: 0.9rem;
     cursor: pointer;
+    background: #FFFFFF;
   }
 
   .user-buttons:hover {
