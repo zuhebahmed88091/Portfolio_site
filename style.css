@@ -176,8 +176,10 @@ body {
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem;
+    font-weight: 500; */
     font-weight: 500;
+    font-size: 0.75rem;
     color: #6070ff;
   }
 
@@ -191,7 +193,7 @@ body {
     font-weight: 500;
     font-size: 0.9rem;
     cursor: pointer;
-    background: #FFFFFF;
+    background: #fff;
   }
 
   .user-buttons:hover {
