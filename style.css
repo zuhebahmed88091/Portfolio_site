@@ -13,7 +13,7 @@ body {
   .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFFF;
+    background-color: #fff;
   }
 
   .logo {
@@ -45,7 +45,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #fff;
     border-bottom-left-radius: 14%;
   }
 
@@ -102,13 +102,12 @@ body {
   }
 
   .cards {
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
     border-radius: 1.6rem;
     padding: 4%;
     display: flex;
     flex-direction: column;
-    
   }
 
   .project-snippet img {
@@ -119,17 +118,20 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .project-details-heading {
     height: 100%;
     display: flex;
     flex-direction: column;
   }
+
   .project-details-heading h3 {
     font-size: 2rem;
     margin-block-start: 0.3rem;
     margin-block-end: 0;
-    color: #172B4D;
+    color: #172b4d;
   }
+
   .project-details-heading ul {
     display: flex;
     justify-content: flex-start;
@@ -149,7 +151,7 @@ body {
 
   .list-items {
     font-weight: 600;
-    color: #7A869A;
+    color: #7a869a;
     font-size: 0.9rem;
     padding-right: 8%;
   }
@@ -160,16 +162,16 @@ body {
     margin-block-start: 0;
     margin-block-end: 0;
   }
-  
-  .tools{
+
+  .tools {
     margin-block-start: 1rem;
     margin-block-end: 2rem;
     padding-inline-start: 0;
-
   }
+
   .tools-items {
     display: inline-block;
-    background: #EBEBFF;
+    background: #ebebff;
     border-radius: 1rem;
     padding-left: 5%;
     padding-right: 5%;
@@ -177,27 +179,30 @@ body {
     padding-bottom: 2%;
     font-size: 0.8rem;
     font-weight: 500;
-    color: #6070FF;
+    color: #6070ff;
   }
+
   .user-buttons {
     width: 45%;
     padding: 3%;
     margin-bottom: 6%;
-    border: 2px solid #6070FF;
+    border: 2px solid #6070ff;
     border-radius: 0.7rem;
-    color: #396DF2;
+    color: #396df2;
     font-weight: 500;
     font-size: 0.9rem;
     cursor: pointer;
   }
+
   .user-buttons:hover {
-    background: #6070FF;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-    color: #FFFFFF;
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
   }
+
   .user-buttons:focus {
-    background: #2230D2;
-    color: #FFFFFF;
+    background: #2230d2;
+    color: #fff;
   }
 
   /* Works ends */
@@ -209,10 +214,10 @@ body {
     padding-left: 6%;
     padding-right: 6%;
     padding-bottom: 17%;
-    margin-bottom:3%;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #fff;
     border-top-right-radius: 15%;
   }
 
@@ -253,47 +258,58 @@ body {
   .about-social-media-icons li {
     padding-right: 6%;
   }
+
   .languages-frameworks-list {
     list-style-type: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
     padding-inline-start: 0;
   }
+
   .language-title {
     display: flex;
     justify-content: space-between;
   }
+
   .language-title img {
     padding-right: 20%;
   }
+
   .language-name {
     display: flex;
     border-radius: 0.8rem;
-    background-color: #F7F7F9;
+    background-color: #f7f7f9;
     margin-bottom: 5%;
   }
+
   .language-logo {
     padding: 3%;
   }
+
   .certain-language-name {
     padding-left: 2%;
     padding-top: 3%;
   }
+
   .framework-title {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #E5E5E5;
+    border-bottom: 2px solid #e5e5e5;
   }
+
   .framework-title img {
     padding-right: 20%;
   }
+
   .skill-title {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #E5E5E5;
+    border-bottom: 2px solid #e5e5e5;
   }
+
   .skill-title img {
     padding-right: 20%;
   }
-  
+
+  /* About myself ends */
 }
