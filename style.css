@@ -272,7 +272,7 @@ body {
   }
 
   .language-title h2 {
-    color: #000000;
+    color: #000;
     font-weight: 530;
     font-size: 1.25rem;
   }
@@ -284,8 +284,8 @@ body {
   .languages-name {
     list-style-type: none;
     padding-inline-start: 0;
-    
   }
+
   .languages-name li {
     display: flex;
     border-radius: 0.8rem;
@@ -313,8 +313,9 @@ body {
     justify-content: space-between;
     border-bottom: 2px solid #e5e5e5;
   }
+
   .framework-title h2 {
-    color: #000000;
+    color: #000;
     font-weight: 530;
     font-size: 1.25rem;
   }
@@ -330,7 +331,7 @@ body {
   }
 
   .skill-title h2 {
-    color: #000000;
+    color: #000;
     font-weight: 530;
     font-size: 1.25rem;
   }
