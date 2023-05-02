@@ -376,7 +376,7 @@ body {
     width: 90%;
     margin-bottom: 5%;
     color: #172b4d;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     border-width: 0;
     padding: 0.5rem;
     font-weight: 400;
@@ -386,7 +386,7 @@ body {
     width: 90%;
     height: 8rem;
     color: #172b4d;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     border-width: 0;
     padding: 0.5rem;
     font-weight: 400;
