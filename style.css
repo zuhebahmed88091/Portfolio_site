@@ -182,14 +182,14 @@ body {
   }
 
   .user-buttons {
-    width: 60.2%;
+    width: 46%;
     padding: 4%;
     margin-bottom: 6%;
     border: 2px solid #6070ff;
     border-radius: 0.7rem;
     color: #396df2;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.1rem;
     cursor: pointer;
     background: #fff;
   }
@@ -340,5 +340,103 @@ body {
     padding-right: 20%;
   }
 
+  .resume-btn {
+    width: 60.2%;
+    padding: 4%;
+    margin-bottom: 6%;
+    border: 2px solid #6070ff;
+    border-radius: 0.7rem;
+    color: #396df2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: #fff;
+  }
+
+  .resume-btn:hover {
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
+  }
+
   /* About myself ends */
+
+  /* Contact me starts */
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    background-color: #6070ff;
+    background-image: url(./Properties/contact\ form\ shapes-mobile.png);
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 22%;
+    margin-top: 35%;
+  }
+
+  .contact-me h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 12%;
+    margin-block-end: 0;
+  }
+
+  .contact-me p {
+    text-align: center;
+    color: #ebebff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 6.8%;
+    padding-right: 6.8%;
+  }
+
+  form {
+    padding-left: 7%;
+    margin-top: 7%;
+  }
+
+  form input {
+    width: 90%;
+    margin-bottom: 5%;
+    color: #172b4d;
+    border-radius: 0.5rem;
+    border-width: 0;
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  form textarea {
+    width: 90%;
+    height: 8rem;
+    color: #b3bac5;
+    border-radius: 0.5rem;
+    border-width: 0;
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 0.86rem;
+  }
+
+  .submit-btn {
+    width: 50.2%;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    border: 2px solid #6070ff;
+    border-radius: 0.7rem;
+    color: #396df2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: #fff;
+  }
+
+  .submit-btn:hover {
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
+  }
+
+  /* Contact me ends */
 }

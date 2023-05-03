@@ -9,13 +9,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)  
 - [:computer: Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [:bust_in_silhouette: Author](#author)
 - [:telescope: Future Features](#future-features)
 - [:handshake: Contributing](#contributing)
@@ -48,6 +48,14 @@
 - **Linters.**
 - **Flexbox.**
 - **CSS Grid**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://zuhebahmed88091.github.io/Portfolio_site/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +125,6 @@ npx stylelint "**/*.{css,scss}"
 ```
 npm test
 ```
-
 ### Deployment <a name="deployment"></a>
 
 You can deploy this project using: GitHub Pages,
