@@ -25,7 +25,7 @@ body {
     padding-top: 1.2%;
   }
 
-  .menu {
+  .menu-options {
     display: none;
   }
 
@@ -446,7 +446,7 @@ body {
 }
 
 @media only screen and (min-width: 601px) {
-   /* navbar starts */
+  /* navbar starts */
    .navbar {
     display: flex;
     justify-content: space-between;
@@ -494,4 +494,63 @@ body {
   }
 
   /* navbar ends */
+
+  /* headline starts */
+    .headline {
+      margin-top: 4.4%;
+      padding-top: 17%;
+      padding-left: 6%;
+      padding-right: 6%;
+      padding-bottom: 10%;
+      background-image: url(./Properties/header-background-desktop.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+    }
+  
+    .headline-heading h1 {
+      color: #091E42;
+      padding-left: 13.8%;
+      margin-block-start: 0.2em;
+      margin-block-end: 0.2em;
+      font-weight: 700;
+      font-size: 3rem;
+      width: 45%;
+    }
+  
+    .headline-description {
+      font-weight: 400;
+      color: #344563;
+      padding-left: 13.8%;
+      font-size: 1.28rem;
+    }
+  
+    .social-media {
+      padding-left: 13.8%;
+      font-weight: 500;
+      color: #7F8CFF;
+      font-size: 1rem;
+    }
+  
+    .social-media h2 {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      font-size: 100%;
+    }
+  
+    .social-media-icons {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 14%;
+      padding-inline-start: 0;
+    }
+  
+    .social-media-icons li {
+      padding-right: 2.5%;
+    }
+  
+  /* headline ends */
 }
