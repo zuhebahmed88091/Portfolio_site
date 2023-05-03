@@ -182,7 +182,7 @@ body {
   }
 
   .user-buttons {
-    width: 60.2%;
+    width: 44.2%;
     padding: 4%;
     margin-bottom: 6%;
     border: 2px solid #6070ff;
@@ -338,6 +338,25 @@ body {
 
   .skill-title img {
     padding-right: 20%;
+  }
+
+  .resume-btn {
+    width: 60.2%;
+    padding: 4%;
+    margin-bottom: 6%;
+    border: 2px solid #6070ff;
+    border-radius: 0.7rem;
+    color: #396df2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: #fff;
+  }
+
+  .resume-btn:hover {
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
   }
 
   /* About myself ends */
