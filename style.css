@@ -553,4 +553,126 @@ body {
     }
   
   /* headline ends */
+
+    /* Works starts */
+
+    .works {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 1fr;
+      row-gap: 4.5rem;
+      padding-top: 17%;
+      padding-left: 6%;
+      padding-right: 6%;
+      padding-bottom: 17%;
+    }
+  
+    .cards {
+      background: #fff;
+      border: 1px solid #dfe1e6;
+      border-radius: 1.6rem;
+      padding: 4%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .project-snippet img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .project-details {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1.9%;
+      padding-left: 2%;
+    }
+  
+    .project-details-heading {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .project-details-heading h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      color: #172b4d;
+    }
+  
+    .project-details-heading ul {
+      display: flex;
+      justify-content: flex-start;
+      padding-right: 1.5%;
+      margin-block-start: 0.6rem;
+      margin-block-end: 1rem;
+      padding-inline-start: 0;
+    }
+  
+    .first-list-item {
+      list-style-type: none;
+      color: #344563;
+      font-weight: 600;
+      padding-right: 1.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .list-items {
+      font-weight: 600;
+      color: #7a869a;
+      font-size: 0.9rem;
+      padding-right: 8%;
+    }
+  
+    .project-details p {
+      font-weight: 400;
+      color: #344563;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+  
+    .tools {
+      margin-block-start: 1rem;
+      margin-block-end: 1.5rem;
+      padding-inline-start: 0;
+    }
+  
+    .tools-items {
+      display: inline-block;
+      background: #ebebff;
+      border-radius: 0.5rem;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      font-weight: 500;
+      font-size: 0.75rem;
+      color: #6070ff;
+    }
+  
+    .user-buttons {
+      width: 46%;
+      padding: 4%;
+      margin-bottom: 6%;
+      border: 2px solid #6070ff;
+      border-radius: 0.7rem;
+      color: #396df2;
+      font-weight: 500;
+      font-size: 1.1rem;
+      cursor: pointer;
+      background: #fff;
+    }
+  
+    .user-buttons:hover {
+      background: #6070ff;
+      box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+      color: #fff;
+    }
+  
+    .user-buttons:focus {
+      background: #2230d2;
+      color: #fff;
+    }
+  
+    /* Works ends */
 }
