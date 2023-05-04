@@ -601,7 +601,6 @@ body {
     padding-left: 2%;
   }
 
-
   .project-details-heading-desktop {
     display: flex;
     flex-direction: column;
@@ -623,7 +622,6 @@ body {
     padding-inline-start: 0;
     padding-top: 2%;
   }
-
 
   .first-list-item-desktop {
     list-style-type: none;
@@ -647,7 +645,6 @@ body {
     margin-block-end: 0;
     padding-top: 3.9%;
   }
-
 
   .tools-desktop {
     margin-block-start: 0;
@@ -683,7 +680,6 @@ body {
     cursor: pointer;
     background: #fff;
   }
-
 
   .user-buttons-desktop:hover {
     background: #6070ff;
@@ -881,7 +877,6 @@ body {
     font-weight: 500;
     font-size: 1.25rem;
   }
-
 
   .languages-name {
     list-style-type: none;
