@@ -983,6 +983,7 @@ body {
     font-size: 1.1rem;
     cursor: pointer;
     background: #fff;
+    transition: background-color 0.8s ease-out, box-shadow 1s ease-in;
   }
 
   .resume-btn:hover {
@@ -1077,6 +1078,7 @@ body {
     cursor: pointer;
     background: #fff;
     margin-bottom: 28.4%;
+    transition: background-color 0.8s ease-out, box-shadow 1s ease-in;
   }
 
   .submit-btn:hover {
