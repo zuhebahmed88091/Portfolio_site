@@ -479,11 +479,21 @@ body {
     padding-left: 9.9%;
     padding-top: 1%;
     padding-bottom: 1%;
+    animation: rotate 4s ease-out;
   }
 
   .union-bar {
     display: none;
   }
+
+  @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
 
   .logo a {
     color: #6070ff;
@@ -609,6 +619,11 @@ body {
   .project-snippet-desktop img {
     width: 100%;
     height: 100%;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .project-snippet-desktop img:hover {
+    transform: scale(1.05);
   }
 
   .project-details-desktop {
@@ -697,6 +712,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
     background: #fff;
+    transition: background-color 1s ease-in, box-shadow 0.5s ease-out;
   }
 
   .user-buttons-desktop:hover {
@@ -706,7 +722,7 @@ body {
   }
 
   .user-buttons-desktop:focus {
-    background: #2230d2;
+    background-color: #2230d2;
     color: #fff;
   }
 
@@ -722,6 +738,11 @@ body {
   .project-snippet-desktop-second img {
     width: 100%;
     height: 100%;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .project-snippet-desktop-second img:hover {
+    transform: scale(1.05);
   }
 
   .project-details-desktop-second {
@@ -809,6 +830,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
     background: #fff;
+    transition: background-color 0.8s ease-out, box-shadow 1s ease-in;
   }
 
   .user-buttons-desktop-second:hover {
@@ -1012,6 +1034,14 @@ body {
     font-size: 0.9rem;
   }
 
+  form input::placeholder {
+    transition: transform 0.5s linear;
+  }
+
+  form input:hover::placeholder {
+    transform: translateX(2%);
+  }
+
   form textarea {
     width: 27rem;
     height: 8rem;
@@ -1020,6 +1050,14 @@ body {
     padding: 0.5rem;
     font-weight: 400;
     font-size: 0.86rem;
+  }
+
+  form textarea::placeholder {
+    transition: transform 0.5s linear;
+  }
+
+  form textarea:hover::placeholder {
+    transform: translateX(2%);
   }
 
   .submit {
