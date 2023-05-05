@@ -503,6 +503,9 @@ body {
     display: flex;
     justify-content: space-around;
   }
+  .menu-options a {
+    text-decoration: none;
+  }
 
   .menu-list {
     color: #344563;
