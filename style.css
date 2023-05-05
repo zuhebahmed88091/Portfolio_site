@@ -488,12 +488,13 @@ body {
 
   @keyframes rotate {
     from {
-        transform: rotate(0deg);
+      transform: rotate(0deg);
     }
+
     to {
-        transform: rotate(180deg);
+      transform: rotate(180deg);
     }
-}
+  }
 
   .logo a {
     color: #6070ff;
@@ -513,6 +514,7 @@ body {
     display: flex;
     justify-content: space-around;
   }
+
   .menu-options a {
     text-decoration: none;
   }
@@ -617,6 +619,12 @@ body {
   }
 
   .project-snippet-desktop img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .project-snippet-desktop-second img {
     width: 100%;
     height: 100%;
     transition: all 0.7s ease-in-out;
@@ -733,12 +741,6 @@ body {
     padding: 1.9%;
     display: flex;
     justify-content: space-evenly;
-  }
-
-  .project-snippet-desktop-second img {
-    width: 100%;
-    height: 100%;
-    transition: all 0.7s ease-in-out;
   }
 
   .project-snippet-desktop-second img:hover {
