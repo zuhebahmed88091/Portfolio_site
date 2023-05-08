@@ -49,6 +49,7 @@
 - **Linters.**
 - **Flexbox.**
 - **CSS Grid**
+- **Transitions and Animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,10 +147,9 @@ You can deploy this project using: GitHub Pages,
 
 ## :telescope: Future Features <a name="future-features"></a>
 
-- [ ] **Implement projects section.**
-- [ ] **Implement about myself section.**
-- [ ] **Add CSS grid.**
-- [ ] **Update all the sections for PC/Tab versions.**
+- [ ] **Make the site dynamic**
+- [ ] **Add DOM**
+- [ ] **Add CSS preprocessors**
 - [ ] **Add Bootstrap.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
