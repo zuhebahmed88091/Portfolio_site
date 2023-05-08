@@ -8,6 +8,10 @@ body {
   background-color: rgba(229, 229, 229, 0.3);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media only screen and (max-width: 600px) {
   /* navbar starts */
   body {

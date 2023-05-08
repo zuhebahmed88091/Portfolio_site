@@ -16,6 +16,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [:bust_in_silhouette: Author](#author)
 - [:telescope: Future Features](#future-features)
 - [:handshake: Contributing](#contributing)
@@ -48,6 +49,7 @@
 - **Linters.**
 - **Flexbox.**
 - **CSS Grid**
+- **Transitions and Animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +131,10 @@ npm test
 
 You can deploy this project using: GitHub Pages,
 
+- I used GitHub Pages to deploy my website.
+- To learn about github page information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
+- or You can go through W3Schools, "[W3schools github pages](https://www.w3schools.com/git/git_remote_pages.asp?remote=github)".
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :bust_in_silhouette: Author <a name="author"></a>
@@ -141,10 +147,9 @@ You can deploy this project using: GitHub Pages,
 
 ## :telescope: Future Features <a name="future-features"></a>
 
-- [ ] **Implement projects section.**
-- [ ] **Implement about myself section.**
-- [ ] **Add CSS grid.**
-- [ ] **Update all the sections for PC/Tab versions.**
+- [ ] **Make the site dynamic**
+- [ ] **Add DOM**
+- [ ] **Add CSS preprocessors**
 - [ ] **Add Bootstrap.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
