@@ -16,6 +16,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [:bust_in_silhouette: Author](#author)
 - [:telescope: Future Features](#future-features)
 - [:handshake: Contributing](#contributing)
@@ -128,6 +129,10 @@ npm test
 ### Deployment <a name="deployment"></a>
 
 You can deploy this project using: GitHub Pages,
+
+- I used GitHub Pages to deploy my website.
+- To learn about github page information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
+- or You can go through W3Schools, "[W3schools github pages](https://www.w3schools.com/git/git_remote_pages.asp?remote=github)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
