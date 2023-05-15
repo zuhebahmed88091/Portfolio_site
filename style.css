@@ -1031,41 +1031,6 @@ html {
     width: 40%;
   }
 
-  form input {
-    width: 27rem;
-    margin-bottom: 5%;
-    color: #172b4d;
-    border-width: 0;
-    padding: 0.5rem;
-    font-weight: 400;
-    font-size: 0.9rem;
-  }
-
-  form input::placeholder {
-    transition: transform 0.5s linear;
-  }
-
-  form input:hover::placeholder {
-    transform: translateX(2%);
-  }
-
-  form textarea {
-    width: 27rem;
-    height: 8rem;
-    color: #b3bac5;
-    border-width: 0;
-    padding: 0.5rem;
-    font-weight: 400;
-    font-size: 0.86rem;
-  }
-
-  form textarea::placeholder {
-    transition: transform 0.5s linear;
-  }
-
-  form textarea:hover::placeholder {
-    transform: translateX(2%);
-  }
 
   .submit {
     display: flex;
