@@ -28,6 +28,44 @@ html {
     padding-left: 6%;
   }
 
+  .union-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .ham-bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #6070ff;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(0.5rem);
+    display: none;
+  }
+
+  .ham-menu-options a {
+    text-decoration: none;
+  }
+
+  .ham-menu-list {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    list-style: none;
+    padding-top: 1.54rem;
+  }
+
+  .cross-button {
+    background: none;
+    border: none;
+    float: right;
+    padding-right: 1.6rem;
+    padding-top: 0.24rem;
+    cursor: pointer;
+  }
+
   .union-bar {
     padding-right: 6%;
     padding-top: 1.2%;
@@ -1030,7 +1068,6 @@ html {
     padding-right: 6.8%;
     width: 40%;
   }
-
 
   .submit {
     display: flex;
