@@ -451,27 +451,28 @@
         a feature that you need built or a project that needs coding. 
         I'd love to help with it!
       </p>
-      <form action="https://formspree.io/f/mvonlakn" method="post">
-        <section class="form-name">
+      <form id="form" action="https://formspree.io/f/mvonlakn" method="post">
+        <section class="form-name input-control">
+          <div class="error"></div>
           <label for="name"></label>
           <input
+          id="name"
            type="text"
-           id="name"
            maxlength="30"
            placeholder="Full Name"
            name="username"
-           required
           >
         </section>
-        <section class="email-form">
+        <section class="email-form input-control">
+          <div class="error"></div>
           <label for="email"></label>
           <input
-            type="email"
             id="email"
+            type="email"
             placeholder="Email Address"
-            name="email"
-            required
+            name="email" 
           >
+          <div class="error"></div>
         </section>
         <section class="textarea-form">
           <label for="message"></label>
@@ -479,7 +480,7 @@
           name="user-message" 
           id="message"
           placeholder="Write your message here..." 
-          max-length="500" required></textarea>
+          max-length="500"></textarea>
         </section>
         <section class="submit">
           <button type="submit" class="submit-btn">
