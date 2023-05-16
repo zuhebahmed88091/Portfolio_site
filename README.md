@@ -26,7 +26,15 @@
 
 # :book: Portfolio: setup and mobile first <a name="about-project"></a>
 
-**Portfolio: setup and mobile first** is a simple project based on HTML, CSS and Linters.
+**Portfolio** is a simple project based on ->
+- CSS Flexbox
+- CSS Grid
+- HTML Semantics
+- HTML Box Model
+- HTML Form etc.
+- CSS Transitions
+- CSS Animations
+- GITHUB Page
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -137,11 +145,17 @@ You can deploy this project using: GitHub Pages,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :bust_in_silhouette: Author <a name="author"></a>
+## :bust_in_silhouette: Author <a name="Zuheb Ahmed"></a>
 
 - GitHub: [@zuhebahmed88091](https://github.com/zuhebahmed88091)
 - Twitter: [@zuhebahmed88091](https://twitter.com/ZuhebAhmed88091)
 - LinkedIn: [Zuheb Ahmed](https://www.linkedin.com/in/zuheb-ahmed/)
+
+## :bust_in_silhouette: Author <a name="Peter Kibet"></a>
+
+- GitHub: [@githubhandle](https://github.com/Peter-Kibet)
+- Twitter: [@twitterhandle](https://twitter.com/Peter_Montana_J)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-jk-077148195/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRtNdLwX9S4KxQRQYgnD7qQ%3D%3D)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
