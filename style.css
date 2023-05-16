@@ -495,10 +495,6 @@ html {
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     color: #fff;
   }
-  .input-control .error {
-    color: red;
-    font-size: 1rem;
-  }
 
   /* Contact me ends */
 }

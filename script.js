@@ -61,12 +61,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     clearError(username);
     clearError(email);
-
-    if (usernameValue === '') {
-      setError(username, 'Username is required');
-    }
-    if (emailValue === '') {
-      setError(email, 'Email is required');
-    }
   }
 });
