@@ -24,17 +24,10 @@
 - [:pray: Acknowledgements](#acknowledgements)
 - [:memo: License](#license)
 
-# :book: Portfolio: setup and mobile first <a name="about-project"></a>
+# :book: Portfolio <a name="about-project"></a>
 
-**Portfolio** is a simple project based on ->
-- CSS Flexbox
-- CSS Grid
-- HTML Semantics
-- HTML Box Model
-- HTML Form etc.
-- CSS Transitions
-- CSS Animations
-- GITHUB Page
+Welcome to my interactive web portfolio! This project showcases my skills in front-end web development using HTML, CSS, JavaScript, and a linter for code quality assurance. Through this portfolio, I aim to demonstrate my proficiency in creating visually appealing and functional websites
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
