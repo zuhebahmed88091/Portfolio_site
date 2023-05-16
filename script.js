@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
     inputControl.classList.remove('error');
   }
 
+  function isLowerCase(str) {
+    return str === str.toLowerCase();
+  }
+
   function validateFormInputs() {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
@@ -59,6 +63,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (emailValue === '') {
       setError(email, 'Email is required');
+    } else if (!isLowerCase(emailValue)) {
+      setError(email, 'Email must be in lowercase');
+    } else {
+      // Validation is OK, submit the form
+      form.submit();
     }
   }
 
@@ -67,3 +76,43 @@ document.addEventListener('DOMContentLoaded', () => {
     validateFormInputs();
   });
 });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const form = document.getElementById('form');
+//   const username = document.getElementById('name');
+//   const email = document.getElementById('email');
+
+//   function setError(elm, msg) {
+//     const inputControl = elm.parentElement;
+//     const errorDiv = inputControl.querySelector('.error');
+//     errorDiv.innerText = msg;
+//     inputControl.classList.add('error');
+//   }
+
+//   function clearError(elm) {
+//     const inputControl = elm.parentElement;
+//     const errorDiv = inputControl.querySelector('.error');
+//     errorDiv.innerText = '';
+//     inputControl.classList.remove('error');
+//   }
+
+//   function validateFormInputs() {
+//     const usernameValue = username.value.trim();
+//     const emailValue = email.value.trim();
+
+//     clearError(username);
+//     clearError(email);
+
+//     if (usernameValue === '') {
+//       setError(username, 'Username is required');
+//     }
+//     if (emailValue === '') {
+//       setError(email, 'Email is required');
+//     }
+//   }
+
+//   form.addEventListener('submit', (event) => {
+//     event.preventDefault();
+//     validateFormInputs();
+//   });
+// });
