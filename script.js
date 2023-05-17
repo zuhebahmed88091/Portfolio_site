@@ -116,67 +116,7 @@ function generateWorkSection() {
   for (i = 0; i < projects.length; i++) {
       let project = projects[i];
 
-      if(project.flag === "mobile") {
-          let cardSection = document.createElement('section');
-          cardSection.classList.add('cards');
-          let projectHeader = document.createElement('section');
-          projectHeader.classList.add('project-snippet');
-          let imgWrapperLink = document.createElement('a');
-          imgWrapperLink.classList.add('snippet');
-          imgWrapperLink.href = project.projectLink;
-          let projectImg = document.createElement('img');
-          projectImg.src = project.projectImg;
-          projectImg.alt = '';
-          let projectFooter = document.createElement('footer');
-          projectFooter.classList.add('project-details');
-          let projectDetailsHeading = document.createElement('section');
-          projectDetailsHeading.classList.add('project-details-heading');
-          let projectName = document.createElement('h2');
-          projectName.textContent = project.projectNmae;
-          let projectUnorderedList = document.createElement('ul');
-          
-          for (let j = 0; j < project.projectFirstList.length; j++) {
-              let listItem = project.projectFirstList[j];
-              if(project.projectFirstList[0]) {
-                  let projectFirstListItem = document.createElement('li');
-                  projectFirstListItem.classList.add('first-list-item');
-                  projectFirstListItem.textContent = listItem;
-                  projectUnorderedList.appendChild(projectFirstListItem);
-              } else {
-                  let listItems = document.createElement('li');
-                  listItems.classList.add('list-items');
-                  listItems.textContent = listItem;
-                  projectUnorderedList.appendChild(listItems);
-              }
-          }
-          let projectDesc = document.createElement('p');
-          projectDesc.textContent = project.projectDescription;
-          let projectTech = document.createElement('ul');
-          projectTech.classList.add('tools');
-          for(let k = 0; k < project.projectTechnologoies.length; k++) {
-              let tech = project.projectTechnologoies[k];
-              let techList = document.createElement('li');
-              techList.classList.add('tools-items');
-              techList.textContent = tech;
-              projectTech.appendChild(techList);
-          }
-          let projectButton = document.createElement('button');
-          projectButton.classList.add('user-buttons');
-          projectButton.textContent = 'See Project';
-          imgWrapperLink.appendChild(projectImg);
-          projectHeader.appendChild(imgWrapperLink);
-          projectDetailsHeading.appendChild(projectName);
-          projectDetailsHeading.appendChild(projectUnorderedList);
-          projectFooter.appendChild(projectDetailsHeading);
-          projectFooter.appendChild(projectHeader);
-          projectFooter.appendChild(projectDesc);
-          projectFooter.appendChild(projectTech);
-          projectFooter.appendChild(projectButton);
-          cardSection.appendChild(projectHeader);
-          cardSection.appendChild(projectFooter);
-          portfolioSection.appendChild(cardSection);
-
-      } else {
+       else {
           if(i % 2 === 1) {
               let cardSection = document.createElement('section');
               cardSection.classList.add('cards-desktop-second');
