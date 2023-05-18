@@ -741,17 +741,6 @@ html {
   /* Contact me ends */
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  font-family: "Poppins", sans-serif;
-}
-
-html,
-body {
-  overflow-x: hidden;
-}
-
 /* start code */
 
 #overlay1 .active {
@@ -1348,6 +1337,7 @@ section {
     margin-top: -10%;
   }
 
+
   .social {
     text-decoration: none;
     padding-left: 5%;
@@ -1569,6 +1559,8 @@ section {
     font-weight: 500;
   }
 
+
+
   .code {
     display: flex;
     flex-direction: row;
@@ -1606,6 +1598,10 @@ section {
     list-style: none;
   }
 
+
+
+
+
   .card-image,
   button {
     transition-property: all;
@@ -1624,6 +1620,8 @@ section {
     margin-top: 2%;
     padding-right: 200px;
   }
+
+
 
   .about p {
     margin-left: -20%;
