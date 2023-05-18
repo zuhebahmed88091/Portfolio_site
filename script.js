@@ -1,105 +1,105 @@
-const unionButton = document.querySelector(".union-button");
-const crossButton = document.querySelector(".cross-button");
-const hamBar = document.querySelector(".ham-bar");
-const scrollToLinks = document.querySelectorAll(".scroll");
+const unionButton = document.querySelector('.union-button');
+const crossButton = document.querySelector('.cross-button');
+const hamBar = document.querySelector('.ham-bar');
+const scrollToLinks = document.querySelectorAll('.scroll');
 const cardSection = document.getElementById('portfolio');
 
 const projects = [
-    {
-      id: 'Project1',
-      title: 'Tonic',
-      title1: 'Tonic',
-      company: 'CANOPY',
-      company1: 'CANOPY',
-      icon: './Properties/Counter.svg',
-      specialization: 'Back End Dev',
-      specialization1: 'Back End Dev',
-      year: '2015',
-      description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-      description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      technologies: {
-        tech1: 'html',
-        techE: 'Ruby on rails',
-        tech2: 'css',
-        tech3: 'javaScript',
-      },
-      imageMobile: './Properties/Work 1.svg',
-      imageDesktop: './Properties/pic_1.png',
-      live: '#',
-      source: '#',
+  {
+    id: 'Project1',
+    title: 'Tonic',
+    title1: 'Tonic',
+    company: 'CANOPY',
+    company1: 'CANOPY',
+    icon: './Properties/Counter.svg',
+    specialization: 'Back End Dev',
+    specialization1: 'Back End Dev',
+    year: '2015',
+    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rails',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    {
-      id: 'Project2',
-      title: 'Multi-Post<br>Stories',
-      title1: 'Multi-Post',
-      company: 'CANOPY',
-      company1: 'FACEBOOK',
-      icon: './Properties/Counter.svg',
-      specialization: 'Back End Dev',
-      specialization1: 'Full Stack Dev',
-      year: '2015',
-      description: 'Experimental content creation feature that allows users to add to an existing story<br />over the course of a day without spamming theirfriends.',
-      description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      technologies: {
-        tech1: 'html',
-        techE: 'Ruby on rails',
-        tech2: 'css',
-        tech3: 'javaScript',
-      },
-      imageMobile: './Properties/Work 2.svg',
-      imageDesktop: './Properties/pic_2.png',
-      live: '#',
-      source: '#',
+    imageMobile: './Properties/Work 1.svg',
+    imageDesktop: './Properties/pic_1.png',
+    live: '#',
+    source: '#',
+  },
+  {
+    id: 'Project2',
+    title: 'Multi-Post<br>Stories',
+    title1: 'Multi-Post',
+    company: 'CANOPY',
+    company1: 'FACEBOOK',
+    icon: './Properties/Counter.svg',
+    specialization: 'Back End Dev',
+    specialization1: 'Full Stack Dev',
+    year: '2015',
+    description: 'Experimental content creation feature that allows users to add to an existing story<br />over the course of a day without spamming theirfriends.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rails',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    {
-      id: 'Project3',
-      title: 'Tonic',
-      title1: 'Facebook 360',
-      company: 'CANOPY',
-      company1: 'FACEBOOK 360',
-      icon: './Properties/Counter.svg',
-      specialization: 'Back End Dev',
-      specialization1: 'Full Stack Dev',
-      year: '2015',
-      description: 'Exploring the future of media in Facebooks first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.',
-      description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      technologies: {
-        tech1: 'html',
-        techE: 'Ruby on rails',
-        tech2: 'css',
-        tech3: 'javaScript',
-      },
-      imageMobile: './Properties/Work 3.svg',
-      imageDesktop: './Properties/pic_3.png',
-      live: '#',
-      source: '#',
+    imageMobile: './Properties/Work 2.svg',
+    imageDesktop: './Properties/pic_2.png',
+    live: '#',
+    source: '#',
+  },
+  {
+    id: 'Project3',
+    title: 'Tonic',
+    title1: 'Facebook 360',
+    company: 'CANOPY',
+    company1: 'FACEBOOK 360',
+    icon: './Properties/Counter.svg',
+    specialization: 'Back End Dev',
+    specialization1: 'Full Stack Dev',
+    year: '2015',
+    description: 'Exploring the future of media in Facebooks first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rails',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    {
-      id: 'Project4',
-      title: 'Multi-Post<br>Stories',
-      title1: 'Uber Navigation',
-      company: 'CANOPY',
-      company1: 'Uber',
-      icon: './Properties/Counter.svg',
-      specialization: 'Back End Dev',
-      specialization1: 'Lead Developer',
-      year: '2018',
-      description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-      description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      technologies: {
-        tech1: 'html',
-        techE: 'Ruby on rails',
-        tech2: 'css',
-        tech3: 'javaScript',
-      },
-      imageMobile: './Properties/Work 4.svg',
-      imageDesktop: './Properties/pic_4.png',
-      live: '#',
-      source: '#',
+    imageMobile: './Properties/Work 3.svg',
+    imageDesktop: './Properties/pic_3.png',
+    live: '#',
+    source: '#',
+  },
+  {
+    id: 'Project4',
+    title: 'Multi-Post<br>Stories',
+    title1: 'Uber Navigation',
+    company: 'CANOPY',
+    company1: 'Uber',
+    icon: './Properties/Counter.svg',
+    specialization: 'Back End Dev',
+    specialization1: 'Lead Developer',
+    year: '2018',
+    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rails',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-  ];
+    imageMobile: './Properties/Work 4.svg',
+    imageDesktop: './Properties/pic_4.png',
+    live: '#',
+    source: '#',
+  },
+];
 
-  let count = 1;
+let count = 1;
 projects.forEach((project) => {
   const newDiv = document.createElement('div');
   newDiv.innerHTML = `
@@ -221,49 +221,48 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
   });
 }));
 
-
 function showMobileMenu() {
-  hamBar.style.display = "block";
+  hamBar.style.display = 'block';
 }
 
 function hideMobileMenu() {
-  hamBar.style.display = "none";
+  hamBar.style.display = 'none';
 }
 function scrollSection(sectionId) {
   const section = document.getElementById(sectionId);
   if (section) {
-    section.scrollIntoView({ behavior: "smooth" });
+    section.scrollIntoView({ behavior: 'smooth' });
   }
 }
 scrollToLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
+  link.addEventListener('click', (event) => {
     event.preventDefault();
-    const sectionId = link.getAttribute("href");
+    const sectionId = link.getAttribute('href');
     scrollSection(sectionId);
     hideMobileMenu();
   });
 });
-unionButton.addEventListener("click", showMobileMenu);
+unionButton.addEventListener('click', showMobileMenu);
 
-crossButton.addEventListener("click", hideMobileMenu);
+crossButton.addEventListener('click', hideMobileMenu);
 
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("form");
-  const username = document.getElementById("name");
-  const email = document.getElementById("email");
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('form');
+  const username = document.getElementById('name');
+  const email = document.getElementById('email');
 
   function setError(elm, msg) {
     const inputControl = elm.parentElement;
-    const errorDiv = inputControl.querySelector(".error");
+    const errorDiv = inputControl.querySelector('.error');
     errorDiv.innerText = msg;
-    inputControl.classList.add("error");
+    inputControl.classList.add('error');
   }
 
   function clearError(elm) {
     const inputControl = elm.parentElement;
-    const errorDiv = inputControl.querySelector(".error");
-    errorDiv.innerText = "";
-    inputControl.classList.remove("error");
+    const errorDiv = inputControl.querySelector('.error');
+    errorDiv.innerText = '';
+    inputControl.classList.remove('error');
   }
 
   function isLowerCase(str) {
@@ -277,20 +276,20 @@ document.addEventListener("DOMContentLoaded", () => {
     clearError(username);
     clearError(email);
 
-    if (usernameValue === "") {
-      setError(username, "Username is required");
+    if (usernameValue === '') {
+      setError(username, 'Username is required');
     }
-    if (emailValue === "") {
-      setError(email, "Email is required");
+    if (emailValue === '') {
+      setError(email, 'Email is required');
     } else if (!isLowerCase(emailValue)) {
-      setError(email, "Email must be in lowercase");
+      setError(email, 'Email must be in lowercase');
     } else {
       // Validation is OK, submit the form
       form.submit();
     }
   }
 
-  form.addEventListener("submit", (event) => {
+  form.addEventListener('submit', (event) => {
     event.preventDefault();
     validateFormInputs();
   });
