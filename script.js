@@ -294,3 +294,18 @@ document.addEventListener('DOMContentLoaded', () => {
     validateFormInputs();
   });
 });
+
+const nameField = document.querySelector('input[name="username"]');
+const emailField = document.querySelector('input[name="email"]');
+const messageField = document.querySelector('textarea[name="user-message"]');
+
+function saveDataToLocalStorage() {
+  const data = {
+    name: nameField.value,
+    email: emailField.value,
+    message: messageField.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+
