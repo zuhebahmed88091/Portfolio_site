@@ -24,7 +24,7 @@ const projects = [
       tech3: 'javaScript',
     },
     imageMobile: './Properties/Work 1.svg',
-    imageDesktop: './Properties/pic_1.png',
+    imageDesktop: './Properties/snippet-popup-one.svg',
     live: '#',
     source: '#',
   },
@@ -47,7 +47,7 @@ const projects = [
       tech3: 'javaScript',
     },
     imageMobile: './Properties/Work 2.svg',
-    imageDesktop: './Properties/pic_2.png',
+    imageDesktop: './Properties/snippet-popup-two.svg',
     live: '#',
     source: '#',
   },
@@ -70,7 +70,7 @@ const projects = [
       tech3: 'javaScript',
     },
     imageMobile: './Properties/Work 3.svg',
-    imageDesktop: './Properties/pic_3.png',
+    imageDesktop: './Properties/Work 1.svg',
     live: '#',
     source: '#',
   },
@@ -93,7 +93,7 @@ const projects = [
       tech3: 'javaScript',
     },
     imageMobile: './Properties/Work 4.svg',
-    imageDesktop: './Properties/pic_4.png',
+    imageDesktop: './Properties/Work 2.svg',
     live: '#',
     source: '#',
   },
@@ -167,7 +167,7 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
     </ul>
     </div>
     <img src="${pop.imageMobile}" alt="live" class="work" style="padding-left:6%; margin-top:0%">
-    <img src="${pop.imageDesktop}" alt="live" class="pic"  style="width:1256px; height:440px; margin: 20px;">
+    <img src="${pop.imageDesktop}" alt="live" class="pic"  style="width:100%;">
     <div class="explain">
       <p class="tonic-text2">
         ${pop.description1}
