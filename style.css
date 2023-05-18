@@ -272,7 +272,7 @@ html {
   }
 
   .resume-btn {
-    width: 41.2%;
+    width: 49.2%;
     margin-left: 0;
     margin-bottom: 6%;
     border: 2px solid #6070ff;
@@ -742,8 +742,6 @@ html {
   /* Contact me ends */
 }
 
-/* start code */
-
 #overlay1 .active {
   filter: blur(8px);
 }
@@ -822,8 +820,6 @@ html {
   background-color: #fff;
   width: fit-content;
 }
-
-/* end code */
 
 #ham-menu {
   display: none;
@@ -1262,11 +1258,6 @@ button:active {
   line-height: 24px;
   color: #b3bac5;
   height: 180px;
-}
-
-section {
-  width: 100%;
-  max-width: 1, 440px;
 }
 
 @media only screen and (min-width: 768px) {
