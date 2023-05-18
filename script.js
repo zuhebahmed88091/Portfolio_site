@@ -191,7 +191,7 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
               <img src="./Properties/source.svg" alt="live" class = "live">
             </button>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
             <button type="button" id="source" class="but">See source &nbsp;
-              <img src="./Properties/github.png" alt="source">
+              <img src="./Properties/Github.png" alt="source">
             </button>
           </div>
       </div>
