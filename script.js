@@ -15,8 +15,10 @@ const projects = [
     specialization: 'Back End Dev',
     specialization1: 'Back End Dev',
     year: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rails',
@@ -38,8 +40,10 @@ const projects = [
     specialization: 'Back End Dev',
     specialization1: 'Full Stack Dev',
     year: '2015',
-    description: 'Experimental content creation feature that allows users to add to an existing story<br />over the course of a day without spamming theirfriends.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description:
+      'Experimental content creation feature that allows users to add to an existing story<br />over the course of a day without spamming theirfriends.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rails',
@@ -61,8 +65,10 @@ const projects = [
     specialization: 'Back End Dev',
     specialization1: 'Full Stack Dev',
     year: '2015',
-    description: 'Exploring the future of media in Facebooks first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    description:
+      'Exploring the future of media in Facebooks first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rails',
@@ -84,8 +90,10 @@ const projects = [
     specialization: 'Back End Dev',
     specialization1: 'Lead Developer',
     year: '2018',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rails',
@@ -294,3 +302,29 @@ document.addEventListener('DOMContentLoaded', () => {
     validateFormInputs();
   });
 });
+
+const nameField = document.querySelector('input[name="username"]');
+const emailField = document.querySelector('input[name="email"]');
+const messageField = document.querySelector('textarea[name="user-message"]');
+
+function saveDataToLocalStorage() {
+  const data = {
+    name: nameField.value,
+    email: emailField.value,
+    message: messageField.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+window.addEventListener('load', () => {
+  const savedData = localStorage.getItem('formData');
+  if (savedData) {
+    const data = JSON.parse(savedData);
+    nameField.value = data.name;
+    emailField.value = data.email;
+    messageField.value = data.message;
+  }
+});
+nameField.addEventListener('input', saveDataToLocalStorage);
+emailField.addEventListener('input', saveDataToLocalStorage);
+messageField.addEventListener('input', saveDataToLocalStorage);
