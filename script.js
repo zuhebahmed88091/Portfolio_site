@@ -1,107 +1,115 @@
-const unionButton = document.querySelector('.union-button');
-const crossButton = document.querySelector('.cross-button');
-const hamBar = document.querySelector('.ham-bar');
-const scrollToLinks = document.querySelectorAll('.scroll');
-const cardSection = document.getElementById('portfolio');
+const unionButton = document.querySelector(".union-button");
+const crossButton = document.querySelector(".cross-button");
+const hamBar = document.querySelector(".ham-bar");
+const scrollToLinks = document.querySelectorAll(".scroll");
+const cardSection = document.getElementById("portfolio");
 
 const projects = [
   {
-    id: 'Project1',
-    title: 'Tonic',
-    title1: 'Tonic',
-    company: 'CANOPY',
-    company1: 'CANOPY',
-    icon: './Properties/Counter.svg',
-    specialization: 'Back End Dev',
-    specialization1: 'Back End Dev',
-    year: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    id: "Project1",
+    title: "Tonic",
+    title1: "Tonic",
+    company: "CANOPY",
+    company1: "CANOPY",
+    icon: "./Properties/Counter.svg",
+    specialization: "Back End Dev",
+    specialization1: "Back End Dev",
+    year: "2015",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
-      tech1: 'html',
-      techE: 'Ruby on rails',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: "html",
+      techE: "Ruby on rails",
+      tech2: "css",
+      tech3: "javaScript",
     },
-    imageMobile: './Properties/Work 1.svg',
-    imageDesktop: './Properties/snippet-popup-one.svg',
-    live: '#',
-    source: '#',
+    imageMobile: "./Properties/Work 1.svg",
+    imageDesktop: "./Properties/snippet-popup-one.svg",
+    live: "#",
+    source: "#",
   },
   {
-    id: 'Project2',
-    title: 'Multi-Post<br>Stories',
-    title1: 'Multi-Post',
-    company: 'CANOPY',
-    company1: 'FACEBOOK',
-    icon: './Properties/Counter.svg',
-    specialization: 'Back End Dev',
-    specialization1: 'Full Stack Dev',
-    year: '2015',
-    description: 'Experimental content creation feature that allows users to add to an existing story<br />over the course of a day without spamming theirfriends.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    id: "Project2",
+    title: "Multi-Post<br>Stories",
+    title1: "Multi-Post",
+    company: "CANOPY",
+    company1: "FACEBOOK",
+    icon: "./Properties/Counter.svg",
+    specialization: "Back End Dev",
+    specialization1: "Full Stack Dev",
+    year: "2015",
+    description:
+      "Experimental content creation feature that allows users to add to an existing story<br />over the course of a day without spamming theirfriends.",
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
-      tech1: 'html',
-      techE: 'Ruby on rails',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: "html",
+      techE: "Ruby on rails",
+      tech2: "css",
+      tech3: "javaScript",
     },
-    imageMobile: './Properties/Work 2.svg',
-    imageDesktop: './Properties/snippet-popup-two.svg',
-    live: '#',
-    source: '#',
+    imageMobile: "./Properties/Work 2.svg",
+    imageDesktop: "./Properties/snippet-popup-two.svg",
+    live: "#",
+    source: "#",
   },
   {
-    id: 'Project3',
-    title: 'Tonic',
-    title1: 'Facebook 360',
-    company: 'CANOPY',
-    company1: 'FACEBOOK 360',
-    icon: './Properties/Counter.svg',
-    specialization: 'Back End Dev',
-    specialization1: 'Full Stack Dev',
-    year: '2015',
-    description: 'Exploring the future of media in Facebooks first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    id: "Project3",
+    title: "Tonic",
+    title1: "Facebook 360",
+    company: "CANOPY",
+    company1: "FACEBOOK 360",
+    icon: "./Properties/Counter.svg",
+    specialization: "Back End Dev",
+    specialization1: "Full Stack Dev",
+    year: "2015",
+    description:
+      "Exploring the future of media in Facebooks first Virtual Realityapp; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
-      tech1: 'html',
-      techE: 'Ruby on rails',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: "html",
+      techE: "Ruby on rails",
+      tech2: "css",
+      tech3: "javaScript",
     },
-    imageMobile: './Properties/Work 3.svg',
-    imageDesktop: './Properties/Work 1.svg',
-    live: '#',
-    source: '#',
+    imageMobile: "./Properties/Work 3.svg",
+    imageDesktop: "./Properties/Work 1.svg",
+    live: "#",
+    source: "#",
   },
   {
-    id: 'Project4',
-    title: 'Multi-Post<br>Stories',
-    title1: 'Uber Navigation',
-    company: 'CANOPY',
-    company1: 'Uber',
-    icon: './Properties/Counter.svg',
-    specialization: 'Back End Dev',
-    specialization1: 'Lead Developer',
-    year: '2018',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    id: "Project4",
+    title: "Multi-Post<br>Stories",
+    title1: "Uber Navigation",
+    company: "CANOPY",
+    company1: "Uber",
+    icon: "./Properties/Counter.svg",
+    specialization: "Back End Dev",
+    specialization1: "Lead Developer",
+    year: "2018",
+    description:
+      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
-      tech1: 'html',
-      techE: 'Ruby on rails',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: "html",
+      techE: "Ruby on rails",
+      tech2: "css",
+      tech3: "javaScript",
     },
-    imageMobile: './Properties/Work 4.svg',
-    imageDesktop: './Properties/Work 2.svg',
-    live: '#',
-    source: '#',
+    imageMobile: "./Properties/Work 4.svg",
+    imageDesktop: "./Properties/Work 2.svg",
+    live: "#",
+    source: "#",
   },
 ];
 
 let count = 1;
 projects.forEach((project) => {
-  const newDiv = document.createElement('div');
+  const newDiv = document.createElement("div");
   newDiv.innerHTML = `
     <div class="card_${count}">
     <div class="card-image">
@@ -141,14 +149,15 @@ projects.forEach((project) => {
   cardSection.append(newDiv);
 });
 
-const seeproject = document.querySelectorAll('.see');
-const overlay = document.getElementById('overlay1');
-const popup = document.querySelector('.popup');
-const over = document.querySelector('.over');
-seeproject.forEach((p) => p.addEventListener('click', (p) => {
-  const { id } = p.target;
-  const pop = projects.find((p) => p.id === id);
-  popup.innerHTML = `
+const seeproject = document.querySelectorAll(".see");
+const overlay = document.getElementById("overlay1");
+const popup = document.querySelector(".popup");
+const over = document.querySelector(".over");
+seeproject.forEach((p) =>
+  p.addEventListener("click", (p) => {
+    const { id } = p.target;
+    const pop = projects.find((p) => p.id === id);
+    popup.innerHTML = `
   <div class="titles">
     <div class="flex-row" style="justify-content:space-between;">
       <h2 class="tonic-1 ignore-mbl" style="padding-left:6%">${pop.title}</h2>
@@ -197,72 +206,73 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
       </div>
   </div>  `;
 
-  const live = document.getElementById('live');
-  const source = document.getElementById('source');
+    const live = document.getElementById("live");
+    const source = document.getElementById("source");
 
-  live.addEventListener('click', () => {
-    document.location.href = pop.live;
-  });
+    live.addEventListener("click", () => {
+      document.location.href = pop.live;
+    });
 
-  source.addEventListener('click', () => {
-    document.location.href = pop.source;
-  });
+    source.addEventListener("click", () => {
+      document.location.href = pop.source;
+    });
 
-  overlay.classList.toggle('active');
-  popup.classList.toggle('active');
-  over.classList.toggle('active');
+    overlay.classList.toggle("active");
+    popup.classList.toggle("active");
+    over.classList.toggle("active");
 
-  const close = document.querySelector('.close');
+    const close = document.querySelector(".close");
 
-  close.addEventListener('click', () => {
-    popup.classList.remove('active');
-    over.classList.remove('active');
-    overlay.classList.remove('active');
-  });
-}));
+    close.addEventListener("click", () => {
+      popup.classList.remove("active");
+      over.classList.remove("active");
+      overlay.classList.remove("active");
+    });
+  })
+);
 
 function showMobileMenu() {
-  hamBar.style.display = 'block';
+  hamBar.style.display = "block";
 }
 
 function hideMobileMenu() {
-  hamBar.style.display = 'none';
+  hamBar.style.display = "none";
 }
 function scrollSection(sectionId) {
   const section = document.getElementById(sectionId);
   if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
+    section.scrollIntoView({ behavior: "smooth" });
   }
 }
 scrollToLinks.forEach((link) => {
-  link.addEventListener('click', (event) => {
+  link.addEventListener("click", (event) => {
     event.preventDefault();
-    const sectionId = link.getAttribute('href');
+    const sectionId = link.getAttribute("href");
     scrollSection(sectionId);
     hideMobileMenu();
   });
 });
-unionButton.addEventListener('click', showMobileMenu);
+unionButton.addEventListener("click", showMobileMenu);
 
-crossButton.addEventListener('click', hideMobileMenu);
+crossButton.addEventListener("click", hideMobileMenu);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const form = document.getElementById('form');
-  const username = document.getElementById('name');
-  const email = document.getElementById('email');
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("form");
+  const username = document.getElementById("name");
+  const email = document.getElementById("email");
 
   function setError(elm, msg) {
     const inputControl = elm.parentElement;
-    const errorDiv = inputControl.querySelector('.error');
+    const errorDiv = inputControl.querySelector(".error");
     errorDiv.innerText = msg;
-    inputControl.classList.add('error');
+    inputControl.classList.add("error");
   }
 
   function clearError(elm) {
     const inputControl = elm.parentElement;
-    const errorDiv = inputControl.querySelector('.error');
-    errorDiv.innerText = '';
-    inputControl.classList.remove('error');
+    const errorDiv = inputControl.querySelector(".error");
+    errorDiv.innerText = "";
+    inputControl.classList.remove("error");
   }
 
   function isLowerCase(str) {
@@ -276,20 +286,20 @@ document.addEventListener('DOMContentLoaded', () => {
     clearError(username);
     clearError(email);
 
-    if (usernameValue === '') {
-      setError(username, 'Username is required');
+    if (usernameValue === "") {
+      setError(username, "Username is required");
     }
-    if (emailValue === '') {
-      setError(email, 'Email is required');
+    if (emailValue === "") {
+      setError(email, "Email is required");
     } else if (!isLowerCase(emailValue)) {
-      setError(email, 'Email must be in lowercase');
+      setError(email, "Email must be in lowercase");
     } else {
       // Validation is OK, submit the form
       form.submit();
     }
   }
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener("submit", (event) => {
     event.preventDefault();
     validateFormInputs();
   });
@@ -306,6 +316,17 @@ function saveDataToLocalStorage() {
     message: messageField.value,
   };
 
-  localStorage.setItem('formData', JSON.stringify(data));
+  localStorage.setItem("formData", JSON.stringify(data));
 }
-
+window.addEventListener("load", () => {
+  const savedData = localStorage.getItem("formData");
+  if (savedData) {
+    const data = JSON.parse(savedData);
+    nameField.value = data.name;
+    emailField.value = data.email;
+    messageField.value = data.message;
+  }
+});
+nameField.addEventListener("input", saveDataToLocalStorage);
+emailField.addEventListener("input", saveDataToLocalStorage);
+messageField.addEventListener("input", saveDataToLocalStorage);
