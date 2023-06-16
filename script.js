@@ -7,28 +7,28 @@ const cardSection = document.getElementById('portfolio');
 const projects = [
   {
     id: 'Project1',
-    title: 'Tonic',
-    title1: 'Tonic',
-    company: 'CANOPY',
-    company1: 'CANOPY',
+    title: 'To Do List',
+    title1: 'To Do List',
+    company: 'Microverse',
+    company1: 'Microverse',
     icon: './Properties/Counter.svg',
-    specialization: 'Back End Dev',
-    specialization1: 'Back End Dev',
-    year: '2015',
+    specialization: 'Front End Dev',
+    specialization1: 'Front End Dev',
+    year: '2023',
     description:
-      'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+      'The goal of this project was to gain familiarity with webpack and enhance JavaScript skills by creating a simple to-do list application',
     description1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "The project implemented essential features of a to-do list, including adding tasks, removing tasks, editing tasks, and clearing completed tasks. By working on this task, the aim was to improve understanding of webpack bundling and deepen knowledge of JavaScript programming.",
     technologies: {
       tech1: 'html',
-      techE: 'Ruby on rails',
+      techE: 'webpack',
       tech2: 'css',
       tech3: 'javaScript',
     },
-    imageMobile: './Properties/Work 1.svg',
-    imageDesktop: './Properties/snippet-popup-one.svg',
-    live: '#',
-    source: '#',
+    imageMobile: './Properties/to_do_list.png',
+    imageDesktop: './Properties/to_do_list.png',
+    live: 'https://zuhebahmed88091.github.io/Portfolio_site/',
+    source: 'https://github.com/zuhebahmed88091/Portfolio_site',
   },
   {
     id: 'Project2',
@@ -46,7 +46,7 @@ const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: {
       tech1: 'html',
-      techE: 'Ruby on rails',
+      techE: 'webpack',
       tech2: 'css',
       tech3: 'javaScript',
     },
@@ -71,7 +71,7 @@ const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
       tech1: 'html',
-      techE: 'Ruby on rails',
+      techE: 'webpack',
       tech2: 'css',
       tech3: 'javaScript',
     },
@@ -96,7 +96,7 @@ const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     technologies: {
       tech1: 'html',
-      techE: 'Ruby on rails',
+      techE: 'webpack',
       tech2: 'css',
       tech3: 'javaScript',
     },
@@ -175,10 +175,10 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
     </ul>
     </div>
     <img src="${pop.imageMobile}" alt="live" class="work" style="padding-left:6%; margin-top:0%">
-    <img src="${pop.imageDesktop}" alt="live" class="pic"  style="width:100%;">
+    <img src="${pop.imageDesktop}" alt="live" class="pic"  style="width:75%;">
     <div class="explain">
       <p class="tonic-text2">
-        ${pop.description1}
+        ${pop.description}
         <br class="ignore-desk">
         <br class="ignore-desk">
         <span class="ignore-desk">${pop.description1}</span>
@@ -191,7 +191,7 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
             <li class="box">${pop.technologies.tech3}</li>
           </ul>
           <ul class="other-tag flex-row" style="padding-left:6%">
-            <li class="box ignore-desk">Ruby</li>
+            <li class="box ignore-desk">Webpack</li>
             <li class="box ignore-desk">Bootstrap</li>
           </ul>
           <div class="btns">

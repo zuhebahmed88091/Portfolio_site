@@ -1357,6 +1357,7 @@ button:active {
   .pic {
     display: flex;
     align-items: center;
+    padding-left: 10%;
   }
 
   .tonic-1 {
@@ -1413,7 +1414,7 @@ button:active {
     align-items: center;
     list-style: none;
     gap: 20px;
-    padding-left: 5.5%;
+    padding-left: 12.5%;
     padding-bottom: 10px;
     margin-top: 0;
     width: 214px;
@@ -1508,7 +1509,6 @@ button:active {
   }
 
   .box_desk span {
-    width: 90px;
     padding-left: 0;
     padding-right: 0;
   }
